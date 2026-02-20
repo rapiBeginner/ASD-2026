@@ -2,7 +2,7 @@
 |--|--|
 | NIM |  254107020097|
 | Nama | Ahmad Raffi |
-| Kelas | T1 - 1I |
+| Kelas | T1 - 1F |
 | Repository | [link] (https://github.com/rapiBeginner/ASD-2026/blob/main/Minggu1) |
 
 # Labs #1 Programming Fundamentals Review
