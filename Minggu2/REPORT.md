@@ -3,11 +3,11 @@
 | NIM |  254107020097|
 | Nama | Ahmad Raffi |
 | Kelas | T1 - 1F |
-| Repository | [link] (https://github.com/rapiBeginner/ASD-2026/blob/main/Minggu1) |
+| Repository | [link] (https://github.com/rapiBeginner/ASD-2026/blob/main/Minggu2) |
 
 # Labs #2 Objek
 
-## 2.1 Percobaan1: Deklarasi Class, Atribut dan Method
+## 2.1 Percobaan 1: Deklarasi Class, Atribut dan Method
 
 ![Screenshot](img/percobaan1.png)
 
@@ -18,3 +18,11 @@
 3. Ada 4 method yang dimiliki: tampilkanInformasi, ubahKelas, updateIPK, nilaiKinerja
 4. ![Screenshot](img/percobaan1Pertanyaan4.png)
 5. Menilai kinerja berdasarkan rentang IPK tertentu, lebih dari sama dengan 3.5 terkategori sangat baik, hingga dibawah 2.0 termasuk kurang. Keterangan kinerja tersebut dikembalikan oleh method tersebut dengan format string.
+
+## 2.2 Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
+
+![Screenshot](img/percobaan2.png)
+
+
+
+
