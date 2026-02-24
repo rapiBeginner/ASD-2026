@@ -53,9 +53,15 @@ Objek yang dihasilkan diberi nama mhs01
 3. ![Screenshot](img/percobaan3Pertanyaan3.png)
 Error ini disebabkan oleh sistem java yang tidak lagi menuliskan konstruktor kosong secara default ketika kita membuat konstruktor berparameter, maka jika kita ingin konstruktor kosong tetap ada, harus didefinisikan ulang.
 4. Tidak, karena untuk mengakses method sebuah fungsi hanya perlu menyebutkan nama methodnya yang didahului nama objek tersebut sesuai kebutuhan kita, terlepas dari urutannya didalam class.
-5. ![Screenshot](img/percobaan3Pertanyaan5.png)
+5. ![Screenshot](img/percobaan3Pertanyaan5.png) 
 
-<!-- ## 2.4. Latihan Praktikum -->
+## 2.4. Latihan Praktikum
+### 2.4.1 Latihan 1
+ ![Screenshot](img/tugas1.png)
+
+### 2.4.2 Latihan 2
+![Screenshot](img/tugas2.png)
+
 
 
 
