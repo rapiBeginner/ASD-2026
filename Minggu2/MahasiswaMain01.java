@@ -10,6 +10,10 @@ public class MahasiswaMain01 {
         mhs1.ubahKelas("TI-1B");
         mhs1.updateIPK(3.75);
         mhs1.tampilkanInformasi();
+
+        Mahasiswa01 mhs2= new Mahasiswa01("Sultan Alfayyad", "254107020087", 3.77, "TI 1H");
+        mhs2.updateIPK(3.30);
+        mhs2.tampilkanInformasi();
     }
 }
 
