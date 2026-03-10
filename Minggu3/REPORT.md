@@ -26,3 +26,18 @@
 5. Kita tidak bisa membuat dua kelas public didalam satu file yang sama, oleh karena itu kedua kelas tersebut dipisahkan kedalam dua file yang berbeda
 
 ## 3.2 Percobaan 2: Menerima Input Isian Array Menggunakan Looping 
+
+![Screenshot](img/percobaan2.png)
+
+### 3.2.1 Penjelasan Singkat
+1. Ganti input tiap index menggunakan metode looping
+2. Ganti output tiap index menggunakan metode looping
+
+### 3.2.2 Pertanyaan 
+1. ![Screenshot](img/percobaan2pertanyaan1a.png)
+
+   ![Screenshot](img/percobaan2pertanyaan1b.png)
+
+2. Karena didalam kode tersebut tidak ada instansiasi objek kedalam index pertama array, maka ketika kita berusaha mengisi atributnya akan menyebabkan error karena objek yang diakses atributnya belum tersedia.
+
+
