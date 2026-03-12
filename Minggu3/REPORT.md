@@ -76,5 +76,5 @@
 
 2. Modifikasi dan pemanbahan fitur
 ![Screenshot](img/tugas2.png)
-1[Screenshot](img/tugas2b.png)
+![Screenshot](img/tugas2b.png)
 <!-- 2. ![Screenshot](img/) -->
