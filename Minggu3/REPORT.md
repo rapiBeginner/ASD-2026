@@ -40,4 +40,18 @@
 
 2. Karena didalam kode tersebut tidak ada instansiasi objek kedalam index pertama array, maka ketika kita berusaha mengisi atributnya akan menyebabkan error karena objek yang diakses atributnya belum tersedia.
 
+## 3.3 Percobaan 3: Constructor Berparameter
+
+![Screenshot](img/percobaan3.png)
+
+### 3.3.1 Penjelasan singkat
+1. Buat kelas MataKuliah dengan konstruktor berparameter
+2. Buat kelas lain dengan main method
+3. Dalam main method, buat array yang bertipe data kelas MataKuliah
+4. Isi array nya dengan inisialsisasi objek MataKuliah pada tiap index, isi parameter dengan hasil inputan
+
+### 3.3.2 Pertanyaan
+1. Bisa, namun konstruktor tersebut harus memiliki parameter yang berbeda, contoh: 
+
+![Screenshot](img/percobaan3Pertanyaan1.png)
 
