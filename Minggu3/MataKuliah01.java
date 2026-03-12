@@ -1,16 +1,32 @@
 package Minggu3;
 
-public class MataKuliah01 {
-    public String kode, nama;
-    public int sks, jumlahJam;
+import java.util.Scanner;
 
-    MataKuliah01(String kode, String nama, int sks, int jumlahJam) {
-        this.kode = kode;
-        this.nama = nama;
-        this.sks = sks;
-        this.jumlahJam = jumlahJam;
+public class MataKuliah01 {
+    public String kode, nama, dummy;
+    public int sks, jumlahJam;
+    public Scanner raffi = new Scanner(System.in);
+
+    void tambahData() {
+        System.out.print("Kode          :");
+        kode = raffi.nextLine();
+        System.out.print("Nama          :");
+        nama = raffi.nextLine();
+        System.out.print("SKS           :");
+        dummy = raffi.nextLine();
+        sks = Integer.parseInt(dummy);
+        System.out.print("Jumlah Jam    :");
+        dummy = raffi.nextLine();
+        jumlahJam = Integer.parseInt(dummy);
+        System.out.println("-----------------------------------");
     }
 
-    
-    
+    void cekInfo() {
+        System.out.println("Kode        :" + kode);
+        System.out.println("Nama        :" + nama);
+        System.out.println("Sks         :" + sks);
+        System.out.println("jumlah jam: "+ jumlahJam);
+        System.out.println("------------------------------------");
+    }
+
 }

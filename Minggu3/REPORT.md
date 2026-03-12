@@ -55,3 +55,18 @@
 
 ![Screenshot](img/percobaan3Pertanyaan1.png)
 
+2. Menambahkan method tambahData():
+
+![Screenshot](img/percobaan3Pertanyaan2.png)
+![Screenshot](img/percobaan3Pertanyaan2b.png)
+
+3. Tambahkan method cetakInfo()
+
+![Screenshot](img/percobaan3Pertanyaan3.png)
+![Screenshot](img/percobaan3Pertanyaan3b.png)
+
+4. Modifikasi agar panjang array dinamis sesuai input user:
+
+![Screenshot](img/percobaan3Pertanyaan4.png)
+![Screenshot](img/percobaan3Pertanyaan4b.png)
+
