@@ -70,3 +70,6 @@
 ![Screenshot](img/percobaan3Pertanyaan4.png)
 ![Screenshot](img/percobaan3Pertanyaan4b.png)
 
+### 3.4 Tugas
+1. ![Screenshot](img/tugas1.png)
+<!-- 2. ![Screenshot](img/) -->
