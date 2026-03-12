@@ -2,11 +2,14 @@ package Minggu3;
 
 import java.util.Scanner;
 
+import javax.xml.crypto.Data;
+
 public class DosenDemo01 {
     public static void main(String[] args) {
         Scanner raffi = new Scanner(System.in);
         System.out.print("Masukkan jumlah dosen: ");
         Dosen01[] arrayOfDosen = new Dosen01[raffi.nextInt()];
+        DataDosen01 dataDosen= new DataDosen01();
         raffi.nextLine();
         for (int i = 0; i < arrayOfDosen.length; i++) {
             System.out.println("Masukkan data dosen ke-" + (i + 1));
@@ -27,19 +30,11 @@ public class DosenDemo01 {
             arrayOfDosen[i] = new Dosen01(kode, nama, jenisKel, usia);
         }
 
-        System.out.println("\n====DAFTAR DOSEN=====");
-        int counter = 1;
-        for (Dosen01 dosen01 : arrayOfDosen) {
-            System.out.println("Data dossen ke-" + counter);
-            System.out.println("Kode            :" + dosen01.kode);
-            System.out.println("Nama            :" + dosen01.nama);
-            System.out.println("Usia            :" + dosen01.usia);
-            String jenisKelamin = dosen01.jenisKelamin == true ? "Perempuan" : "Laki-laki";
-            System.out.println("Jenis Kelamin   :" + jenisKelamin);
-            System.out.println("--------------------------------");
-            counter++;
-            // System.out.println("");
-        }
+        dataDosen.dataSemuaDosen(arrayOfDosen);
+        dataDosen.jumlahDosenPerJenisKelamin(arrayOfDosen);
+        dataDosen.rerataUsiaDosenPerJenisKelamin(arrayOfDosen);
+        dataDosen.infoDosenPalingTua(arrayOfDosen);
+        dataDosen.infoDosenPalingmuda(arrayOfDosen);
 
     }
 }

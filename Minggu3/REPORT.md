@@ -71,5 +71,10 @@
 ![Screenshot](img/percobaan3Pertanyaan4b.png)
 
 ### 3.4 Tugas
-1. ![Screenshot](img/tugas1.png)
+1. Data dosen:
+![Screenshot](img/tugas1.png)
+
+2. Modifikasi dan pemanbahan fitur
+![Screenshot](img/tugas2.png)
+1[Screenshot](img/tugas2b.png)
 <!-- 2. ![Screenshot](img/) -->
