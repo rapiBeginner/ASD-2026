@@ -32,7 +32,7 @@
 ![Screenshot](img/percobaan2.png)
 
 ### 5.2.1 Penjelasan singkat
-1. 1. Membuat sebuah kelas dengan dua buah method yang sama-sama menghitung pangkat
+1. Membuat sebuah kelas dengan dua buah method yang sama-sama menghitung pangkat
 2. Satu fungsi menggunakan looping, satunya melakukan pemanggilan rekursif
 3. Jalankan keduanya di main method kelas lain
 
@@ -53,6 +53,22 @@
 4. pangkatBF() bekerja dengan menerima basis angka yang akan dipangkatkan, serta berapa banyak kelipatan pangkatnya. Dilakukan sebuah iterasi dimana dia mulai mengalikan basis angka dengan basis angia itu sendiri sebanyak jumlah pangkatnya, kemudian mengembalikan hasilnya dalam bentuk angka bulat (2^4= 2x2=4x2=8x2=16). 
 Sementara itu, pangkatDC() tidak langsung mengalikan satu persatu, namun membaginya ke permasalahan yang lebih kecil, ketika solusi dari masalah terkecil ditemukan, dia disubtitusikan kembali keatas hingga menemukan hasil yang dicari (2^4 = 2^2x2^2 dan seterusnya)
 
+## 5.3 Percobaan3:  Menghitung Sum Array dengan Algoritma Brute Force dan Divide and Conquer
+
+![Screenshot](img/percobaan3.png)
+
+### 5.3.1 Penjelasan Singkat
+1. Membuat sebuah kelas untuk menghitung total keuntungan dari menjumlahkan data dalam array
+2. Buat dua method untuk menjumlahkan keuntungann, satu dengan looping satunya dengan metode rekursif
+3. Jalankan keduanya pada kelas lain dengan method main
+
+### 5.3.2 Pertanyaan 
+1. Karena dalam totalDC() array terus dibagi menjadi dua bagian yang sama besar antara kiri dan kanan, oleh karena itu diperlukan variabel mid untuk menentukan titik tengah sebagai batasan antara bagian kiri dan kanan.
+2. Kedua statement tersebut membelah array menjadi dua bagian secara terus menerus hingga mencapai base case, bagian kiri atau lsum dimulai dari kiri ke sampai tengah, sementara bagian kanan atau rsum dimulai dari tengah + 1 sampai ke ujung kanan
+3.  Karena pada akhirnya ketika ekspansi sudah selesai dan akan memasuki tahap subtitusi, hasil yang dicari adalah menjumlahkan semua data pada array. Oleh karena itu hasil dari bagian kiri dan kanan harus dijumlahkan hingga mencapai nilai yang diinginkan.
+4. Base case dari totalDC() adalah kondisi ketika nilai kiri dan kanan adalah sama, ini berarti masalah sudah dibagi menjadi bagian yang paling kecil yaitu satu data saja, tidak bisa dibagi ke kiri dan kanan lagi.
+
+## 5.4 Latihan Praktikum
 
 
 
