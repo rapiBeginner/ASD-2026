@@ -67,6 +67,7 @@ Sementara itu, pangkatDC() tidak langsung mengalikan satu persatu, namun membagi
 2. Kedua statement tersebut membelah array menjadi dua bagian secara terus menerus hingga mencapai base case, bagian kiri atau lsum dimulai dari kiri ke sampai tengah, sementara bagian kanan atau rsum dimulai dari tengah + 1 sampai ke ujung kanan
 3.  Karena pada akhirnya ketika ekspansi sudah selesai dan akan memasuki tahap subtitusi, hasil yang dicari adalah menjumlahkan semua data pada array. Oleh karena itu hasil dari bagian kiri dan kanan harus dijumlahkan hingga mencapai nilai yang diinginkan.
 4. Base case dari totalDC() adalah kondisi ketika nilai kiri dan kanan adalah sama, ini berarti masalah sudah dibagi menjadi bagian yang paling kecil yaitu satu data saja, tidak bisa dibagi ke kiri dan kanan lagi.
+5. totalDC() bekerja dengan cara membagi array menjadi 2 bagian kiri dan kanan, tiap bagian dipecah kembali menjadi 2 bagian kecil lagi kiri dan kanan, seterusnya hingga hanya menyisakan satu nilai (ekspansi). Setelah satu nilai tercapai, dia akan dijumlahkan dengan satu nilai lain di sebelah kiri atau sebelah kanannya. Proses penjumlahan ini diteruskan keatas heirarki hingga semua pemanggilan mendapat returnnya (subtitusi) 
 
 ## 5.4 Latihan Praktikum
 
