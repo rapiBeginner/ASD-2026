@@ -70,5 +70,8 @@ Sementara itu, pangkatDC() tidak langsung mengalikan satu persatu, namun membagi
 
 ## 5.4 Latihan Praktikum
 
+![Screenshot](img/Tugas.png)
+
+
 
 
