@@ -49,4 +49,27 @@
 4. Ini digunakan untuk meletakkan nilai j ke index dikanannya
 
 ## 5.2 Sorting Menggunakan Array of Object
+### 5.2.1 Mengurutkan Data Mahasiswa Berdasarkan IPK(Bubble Sort)
+
+![Screenshot](img/percobaan2.1-A.png)
+![Screenshot](img/percobaan2.1-B.png)
+
+#### 5.2.1.1 Penjelasan singkat
+1. Buat kelas mahasiswa dengan atribut-atributnya
+2. Buat kelas mahasiswa berprestasi, dengan properti array mahasiswa, dan method untuk menampilkan,menambahkan, serta mengurutkan data mahasiswa berdasarkan ipk terbesar
+3. Buat kelas mahasiswa demo, didalamnya ada main method
+4. Buat satu objek mahasiswa berprestasi, dan 5 objek mahasiswa
+5. Masukkan semua objek mahasiswa kedalam properti mahasiswa milik objek mahasiswa berprestasi,(dengan method tambah)
+6. Tampilkan daftar mahasiswa sebelum dan sesudah diurutkan berdasarkan ipk.
+
+#### 5.2.1.2 Pertanyaan
+1. 
+a. Karena dalam pengurutan bubble sort, jumlah perulangannya adalah panjang data -1, sebenarnya tidak -1 bisa tetapi perulangan terakhir tidak akan diperlukan
+b. Karena ketika i sudah dilakukan sekali perulangan, maka angka baris terakhir pasti sudah yang paling kecil, tidak perlu di cek lagi di inner loop setelahnya, begitu pula di loop kedua, baris terakhir -1 pasti disi oleh data terkecil ke-2, dan seterusnya
+c. Perulangan i akan berjalan sebanyak 49 kali (0 - 48), maka tahap bubble sort akan dilakukan sebanyak 49 kali terssebut.
+
+2. 
+
+
+
 
