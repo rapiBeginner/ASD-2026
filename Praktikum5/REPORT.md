@@ -70,6 +70,49 @@ c. Perulangan i akan berjalan sebanyak 49 kali (0 - 48), maka tahap bubble sort 
 
 2. 
 
+![Screenshot](img/percobaan2Pertanyaan2-A.png)
 
+![Screenshot](img/percobaan2Pertanyaan2-B.png)
 
+![Screenshot](img/percobaan2Pertanyaan2-C.png)
 
+### 5.2.2 Mengurutkan Data Mahasiswa Berdasarkan IPK (Selection Sort)
+
+![Screenshot](img/percobaan2.2-A.png)
+
+![Screenshot](img/percobaan2.2-B.png)
+
+#### 5.2.2.1 Penjelasan Singkat
+1. Dalam kelas mahasiswa berprestasi, buat method selection sort 
+2. Method mengurutkan dengan cara mencari data terkecil di index sebelah kanan dan apakah lebih kecil dari index sekarang, jika iya posisinya ditukar
+2. Jalankan method di mahasiswa demo 
+
+#### 5.2.2.2 Pertanyaan
+1. Baris kode program tersebut digunakan untuk menentukan index mana yang mempunyai nilai terkecil. Awalnya index i (index sekarang) dianggap paling kecil (idxmin), lalu dilihat seluruh nilai di index depannya satu persatu, jika lebih kecil dari idxmin, maka indexnya akan dimasukkan kedalam nilai idxmin. Dengan cara ini, kita dapat menemukan nilai terkecil setelah i dan lebih kecil dari i ada di index mana, kemudian ditukar posisinya dengan index tersebut.
+
+### 5.2.3 Mengurutkan data Mahasiswa berdasarkan IPK menggunakan insertion sort
+
+![Screenshot](img/percobaan2.3-A.png)
+
+![Screenshot](img/percobaan2.3-B.png)
+
+#### 5.2.3.1 Penjelasan Singkat 
+1. Dalam kelas mahasiswa berprestasi, buat method  sort 
+2. Method mengurutkan dengan cara mengelompokan data menjadi dua bagian, sorted dan unsorted, bagian unsorted akan di geser satu persatu ke bagian sorted di urutan yang benar
+2. Jalankan method di mahasiswa demo
+
+#### 5.2.3.2. Pertanyaan
+
+![Screenshot](img/percobaan2.3PertanyaanA.png)
+![Screenshot](img/percobaan2.3PertanyaanB.png)
+![Screenshot](img/percobaan2.3PertanyaanC.png)
+
+## 5.3 Tugas
+
+![Screenshot](img/Tugas1.png)
+
+![Screenshot](img/Tugas2.png)
+
+![Screenshot](img/Tugas3.png)
+
+![Screenshot](img/Tugas4.png)
