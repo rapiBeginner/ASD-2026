@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class MahasiswaDemo01 {
     public static void main(String[] args) {
-        MahasiswaBerprestasi01 list= new MahasiswaBerprestasi01();
         Scanner raffi= new Scanner(System.in);
-        int jumMhs=5;
+        System.out.println("Masukkan jumlah mahasiswa");
+        int jumMhs= raffi.nextInt();
+        raffi.nextLine();
+        MahasiswaBerprestasi01 list= new MahasiswaBerprestasi01(jumMhs);
         
         for (int i = 0; i < jumMhs; i++) {
             System.out.println("Masukkan Data Mahasiswa ke-"+(i+1));
@@ -32,9 +34,14 @@ public class MahasiswaDemo01 {
         System.out.print("IPK: ");
         double cari= raffi.nextDouble();
 
-        System.out.println("menggunakan sequential searching");
+        System.out.println("Menggunakan sequential searching");
         int posisi= list.sequentialSearching(cari);
         list.tampilPosisi(cari, posisi);
         list.tampilDataSearch(cari, posisi);
+
+        System.out.println("Menggunakan binary search");
+        int posisi2= list.findBinarySearch(cari, 0, jumMhs-1);
+        list.tampilPosisi(cari, posisi2);
+        list.tampilDataSearch(cari, posisi2);
     } 
 }
