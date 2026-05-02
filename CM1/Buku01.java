@@ -1,3 +1,4 @@
+
 public class Buku01 {
     String kodeBuku, judul;
     int tahunTerbit;
@@ -10,5 +11,6 @@ public class Buku01 {
 
     void tampilBuku(){
         System.out.println("Kode: "+kodeBuku+" | Judul: "+judul+" | Tahun: "+tahunTerbit);
+        
     }
 }

@@ -36,15 +36,23 @@ public class Main01 {
     static Peminjaman01 arrayPeminjaman[] = {
             new Peminjaman01(arrayMhs[0], arrauBuku[0], 7),
             new Peminjaman01(arrayMhs[1], arrauBuku[1], 3),
-            new Peminjaman01(arrayMhs[2], arrauBuku[2], 10),
+            new Peminjaman01(arrayMhs[2], arrauBuku[2], 30),
             new Peminjaman01(arrayMhs[2], arrauBuku[3], 6),
             new Peminjaman01(arrayMhs[0], arrauBuku[1], 4),
     };
 
     static void cariNIM(String nim) {
         for (int i = 0; i < arrayPeminjaman.length; i++) {
-            if (arrayPeminjaman[i].mhs.nim.equalsIgnoreCase(nim)) {
+            if (arrayPeminjaman[i].mhs.nim.equalsIgnoreCase(nim) && arrayPeminjaman[i].isCanceled!=true) {//B tambahkan agar data yang di cancel tidak bisa dicari
                 arrayPeminjaman[i].tampilPeminjaman();
+            }
+        }
+    }
+
+    static void batalkanPeminjaman(String nim) {//B Mencari nim yang dimasukkan, lalu mengubah semua data yang nimnya                                        // sesuai, lalu memanggil method yang mengubah isCanceled nya jadi true
+        for (int i = 0; i < arrayPeminjaman.length; i++) {
+            if (arrayPeminjaman[i].mhs.nim.equalsIgnoreCase(nim)) {
+                arrayPeminjaman[i].batalkan();
             }
         }
     }
@@ -59,6 +67,7 @@ public class Main01 {
             System.out.println("3. Tampilkan Peminjaman");
             System.out.println("4. Urutkan berdasarkan Denda");
             System.out.println("5. Cari Berdasarkan NIM");
+            System.out.println("6. Batalkan transaksi lewat NIM");//B tambahkan menu baru
             System.out.println("0. Keluar");
             System.out.print("Pilih: ");
             menu = raffi.nextInt();
@@ -75,14 +84,28 @@ public class Main01 {
                     peminjaman01.hitungDenda();
                     peminjaman01.tampilPeminjaman();
                 }
-
             } else if (menu == 4) {
                 urutkanDenda();
             } else if (menu == 5) {
                 raffi.nextLine();
                 System.out.print("Masukkan NIM: ");
-                String nim=raffi.nextLine();
+                String nim = raffi.nextLine();
                 cariNIM(nim);
+            } else if (menu == 6) {
+                raffi.nextLine();
+                System.out.print("Masukkan NIM: ");
+                String nim = raffi.nextLine();
+                cariNIM(nim);//B Tampilkan data yang akan dihapus dulu
+                System.out.print("\nHapus data tersebut? (Y/N): "); //B konfirmasi kepada user apakah yakin untuk menghapus data tersebut
+                String confim = raffi.nextLine();
+                if (confim.equalsIgnoreCase("Y")) {//B Jika iya, maka jalankan method untuk membatalkan peminjaman
+                    batalkanPeminjaman(nim);
+                    System.out.println("Tersebut telah dihapus, lihat pada daftar baru berikut:\n");
+                    for (Peminjaman01 peminjaman01 : arrayPeminjaman) {
+                        peminjaman01.hitungDenda();
+                        peminjaman01.tampilPeminjaman();//B setelah selesai membatalkan, tampilkan lagi data yang masih ada (tidak dibatalkan)
+                    }
+                }
             } else {
                 break;
             }

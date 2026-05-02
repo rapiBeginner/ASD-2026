@@ -22,5 +22,5 @@ public class Mahasiswa01 {
         System.out.println("IPK: "+ipk);
     }
 
-
+    
 }
