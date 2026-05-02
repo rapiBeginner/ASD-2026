@@ -20,4 +20,27 @@
   5. Menu lima menampilkan daftar tugas urut dari bawah
 
   ### 10.1.2 Pertanyaan
+  1. 
+
+  ![Screenshot](img/percobaan1Pertanyaan1a.png)
+
+  ![Screenshot](img/percobaan1Pertanyaan1b.png)
+
+  ![Screenshot](img/percobaan1pertanyaan1c.png) 
+
+  2. Didalam class stack sebenarnya jumlah mahasiswa yang ditampung bebas tergantung berapa jumlah yang ditentukan saat instansiasi objek stack, dimana kebetulan dalam main method ditentukan size nya 5
+
+  ![Screenshot](img/percobaan1pertanyaan2a.png) 
+
+  ![Screenshot](img/percobaan1pertanyaan2b.png) 
+
+  3. Pengecekan kondisi isFull() diperlukan agar tidak terjadi error index array out of bound, yang terjadi ketik sebuah array sudah penuh dan kita mencoba mengakses atau mengisi array pada index diluar batas maksimumnya
+
+  4. 
+
+  ![Screenshot](img/percobaan1pertanyaan4.png)
+
+  5.
+
+  ![Screenshot](img/percobaan1pertanyaan5.png) 
   

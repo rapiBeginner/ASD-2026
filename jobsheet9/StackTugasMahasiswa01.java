@@ -1,6 +1,6 @@
 public class StackTugasMahasiswa01 {
     Mahasiswa01[] stack;
-    int top, size;
+    int top, size, count;
 
     StackTugasMahasiswa01(int size) {
         this.size = size;
@@ -28,8 +28,9 @@ public class StackTugasMahasiswa01 {
         if (!isFull()) {
             top++;
             stack[top] = mhs;
+            count++;
         } else {
-            System.out.println("Stack");
+            System.out.println("Stack penuh");
         }
     }
 
@@ -53,10 +54,32 @@ public class StackTugasMahasiswa01 {
         }
     }
 
+    Mahasiswa01 bottom() {
+        if (!isEmpty()) {
+            return stack[0];
+        }
+        System.out.println("Stack kosong! Tidak ada tugas yang dikumpulkan");
+        return null;
+    }
+
     void print() {
         for (int i = top; i >= 0; i--) {
+            // ubah jadi urut dari tumpukan atas ke bawah
             System.out.println(stack[i].nama + "\t" + stack[i].nim + "\t" + stack[i].kelas);
         }
         System.out.println("");
+    }
+
+    void count() {
+        if (count == 0) {
+            System.out.println("Belum pernah ada tugas yang dikumpulkan");
+        } else {
+            System.out.println("Total tugas yang dikumpulkan: "+count);
+            if (isEmpty()) {
+                System.out.println("Stack kosong! Tidak ada tugas yang belum dinilai");
+            } else {
+                System.out.println("Jumlah tugas yang belum dinilai: " + (top + 1));
+            }
+        }
     }
 }
