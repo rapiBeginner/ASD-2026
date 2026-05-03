@@ -61,6 +61,6 @@ public class MahasiswaDemo01 {
                 default:
                     break;
             }
-        } while (pilih>=1 && pilih<=4);
+        } while (pilih>=1 && pilih<=6);
     }
 }
