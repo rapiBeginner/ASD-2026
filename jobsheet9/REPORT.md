@@ -58,7 +58,7 @@
   3. Panggil method konversi biner di main method setiap kali menu memberi nilai dijalankan
 
   ### 10.2.2 Pertanyaan
-  1. Awalnya dibuat sebuah objek stack biner dari kelas yang sudah ada sebelumnya. Kemudian, dilakukan perulangan dengan terus mengambil sisa bagi dari nilai (parameter) ketika dibagi 2, setiap hasil bagi di satu kali loop akan dimasukan ke dalam stack biner. Setelah nilai mencapai 0 maka proses bagi berhenti. Tahap selanjutnya, buat sebuah variabel string biner, kemudian buat perulangan kedua. Pada perulangan ini semua data biner yang ada di stack biner tadi dikeluarkan dan dimasukkan ke string biner (diambil urut dari tumpukan biner yang terakhir masuk/paling atas)
+  1. Awalnya dibuat sebuah objek stack biner dari kelas yang sudah ada sebelumnya. Kemudian, dilakukan perulangan dengan terus mengambil sisa bagi dari nilai (parameter) ketika dibagi 2, setiap hasil bagi di satu kali loop akan dimasukan ke dalam stack biner. Setelah nilai mencapai 0 maka proses bagi berhenti. Tahap selanjutnya, buat sebuah variabel string biner, kemudian buat perulangan kedua. Pada perulangan ini semua data biner yang ada di stack biner tadi dikeluarkan dan dimasukkan ke string biner (diambil urut dari tumpukan biner yang terakhir masuk/paling atas). Kembalikan nilai string biner kepada program yang memanggilnya
 
   2. Tidak ada perubahan siginifikan baik menggunakan > 0 atau != 0, ini dikarenakankeduanya akan tetap menghentikan perulangan ketika nilai sudah mencapai 0 setelah terus dibagi 2.
 
