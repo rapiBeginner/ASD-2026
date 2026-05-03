@@ -24,7 +24,7 @@
 
   ![Screenshot](img/percobaan1Pertanyaan1a.png)
 
-  ![Screenshot](img/percobaan1Pertanyaan1b.png)
+  ![Screenshot](img/percobaan1pertanyaan1b.png)
 
   ![Screenshot](img/percobaan1pertanyaan1c.png) 
 
@@ -38,9 +38,16 @@
 
   4. 
 
+  ![Screenshot](img/percobaan1pertanyaan4b.png)
+
   ![Screenshot](img/percobaan1pertanyaan4.png)
 
   5.
 
+  ![Screenshot](img/percobaan1pertanyaan5b.png)
+
   ![Screenshot](img/percobaan1pertanyaan5.png) 
-  
+
+ ## 10.2. Percobaan 2
+
+ ![Screenshot](img/percobaan2.png)
