@@ -45,9 +45,19 @@
 
  ![Screenshot](img/p2b.png)
 
+ ![Screenshot](img/p2c.png)
+
   ### 10.2.1 Penjelasan singkat
-  1. Buat kelas Mahasiswa yang mengadopsi method dan atribut kelas queue
+  1. Buat kelas Antrian layanan yang mengadopsi method dan atribut kelas queue, data berupa objek dari kelas Mahasiswa
   2. Jalankan di main menu baru dengan memanggil berbagai method nya lewat pilihan menu yang tersedia
 
+  ### 10.2.2 Pertanyaan
+
+  ![Screenshot](img/p2pt1a.png)
+
+  ![Screenshot](img/p2pt1b.png)
+  
+ ## Tugas
+ 
   
 
