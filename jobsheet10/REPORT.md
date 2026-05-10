@@ -39,4 +39,15 @@
 
   ![Screenshot](img/p1pt7d.png)
 
+ ## 10.2 Percobaan 2
+
+ ![Screenshot](img/p2a.png)
+
+ ![Screenshot](img/p2b.png)
+
+  ### 10.2.1 Penjelasan singkat
+  1. Buat kelas Mahasiswa yang mengadopsi method dan atribut kelas queue
+  2. Jalankan di main menu baru dengan memanggil berbagai method nya lewat pilihan menu yang tersedia
+
+  
 
