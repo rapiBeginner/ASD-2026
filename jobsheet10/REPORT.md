@@ -58,6 +58,21 @@
   ![Screenshot](img/p2pt1b.png)
   
  ## Tugas
- 
+
+ ![Screenshot](img/TugasA.png)
+
+ ![Screenshot](img/TugasB.png)
+
+ ![Screenshot](img/TugasC.png)
+
+ ![Screenshot](img/TugasD.png)
+
+ ![Screenshot](img/TugasE.png)
+
+ ![Screenshot](img/TugasF.png)
+
+ ![Screenshot](img/TugasG.png)
+
+
   
 
