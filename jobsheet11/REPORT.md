@@ -17,4 +17,16 @@
    4. Panggil method dari SingleLingkedList di main.
 
   ### 10.1.2 Pertanyaan
-    
+   1. Mengapa hasil compile kode program di baris pertama menghasilkan “Linked List Kosong”?
+   : Karena pada saat pertama kali sll.print() dipanggil, kita belum menjalankan method add apapun untuk menambahkan data ke linkedlist, baik itu addFirst, addLast(), ataupun method insert yang lain. 
+
+   2. Jelaskan kegunaan variable temp secara umum pada setiap method!
+   : Kebanyakan variabel temp digunakan untuk melakukan traversal dari satu node ke node lain tanpa menggeser posisi head.
+
+   3. Lakukan modifikasi agar data dapat ditambahkan dari keyboard!
+   : 
+   
+   ![alt text](img/pr1pt3A.png)
+
+   ![alt text](img/pr1pt3B.png)
+
