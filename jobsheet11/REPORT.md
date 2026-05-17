@@ -25,8 +25,17 @@
 
    3. Lakukan modifikasi agar data dapat ditambahkan dari keyboard!
    : 
-   
+
    ![alt text](img/pr1pt3A.png)
 
    ![alt text](img/pr1pt3B.png)
+
+ ## 10.2 Percobaan 2
+ 
+ ![Screenshot](img/pr2.png)
+
+  ### 10.2.1 Penjelasan Singkat
+  1. Tambahkan method untuk menghapus dari depan, menghapus dari belakang, dan menghapus pada index tertentu.
+  2. jalankan method tersebut di kelas main setelah menambahkan data seperti pada percobaan 1
+  
 
