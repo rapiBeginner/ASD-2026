@@ -37,5 +37,14 @@
   ### 10.2.1 Penjelasan Singkat
   1. Tambahkan method untuk menghapus dari depan, menghapus dari belakang, dan menghapus pada index tertentu.
   2. jalankan method tersebut di kelas main setelah menambahkan data seperti pada percobaan 1
+
+  ### 10.2.2 Pertanyaan
+  1. Mengapa digunakan keyword break pada fungsi remove? Jelaskan!
+  : break digunakan untuk menghentikan perulangan ketika data yang dicari sudah ditemukan dan dihapus, sehingga ketika penghapusan selesai dilakukan dia tidak perlu menghabiskan waktu untuk terus menelusuri hingga akhir dari list.
+
+  2. Jelaskan kegunaan kode dibawah pada method remove
+  : baris kode tersebut menghubungkan pointer node saat ini, ke pada dua node setelahnya, otomatis memutus hubungan dengan satu node setelahnya (menghapus). Lalu, jika ternyata pointer setelah proses tersebut mengarah ke null (berarti tidak ada node setelahnya, node saat ini adalah node paling akhir pada list), node saat ini ditandai sebagai tail.
+
   
+
 
