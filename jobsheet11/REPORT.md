@@ -45,6 +45,18 @@
   2. Jelaskan kegunaan kode dibawah pada method remove
   : baris kode tersebut menghubungkan pointer node saat ini, ke pada dua node setelahnya, otomatis memutus hubungan dengan satu node setelahnya (menghapus). Lalu, jika ternyata pointer setelah proses tersebut mengarah ke null (berarti tidak ada node setelahnya, node saat ini adalah node paling akhir pada list), node saat ini ditandai sebagai tail.
 
+ ## Tugas
+
+ ![Screenshot](img/t1.png)
+
+ ![Screenshot](img/t2.png)
+
+ ![Screenshot](img/t3.png)
+
+ ![Screenshot](img/t4.png)
+
+ ![Screenshot](img/t5.png)
+
   
 
 

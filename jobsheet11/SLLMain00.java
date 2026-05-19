@@ -56,7 +56,6 @@ public class SLLMain00 {
         sill.getData(1);
 
         System.out.println("data mahasiswa bernama Bimon berada pada index "+sill.indexOf("bimon"));
-        System.out.println();
 
         sill.removeFirst();
         sill.removeLast();
