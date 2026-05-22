@@ -1,5 +1,4 @@
 
-
 public class DoubleLinkedList01 {
     Node01 head;
     Node01 tail;
@@ -71,15 +70,37 @@ public class DoubleLinkedList01 {
 
     void print() {
         if (isEmpty()) {
-            System.out.println("Linked List kosong");
+            System.out.println("Linked List masih kosong");
             return;
         }
 
         Node01 current = head;
 
         while (current != null) {
-            current.data.tampil();
+            System.out.println("NIM   : " + current.data.nim);
+            System.out.println("Nama  : " + current.data.nama);
+            System.out.println("Kelas : " + current.data.kelas);
+            System.out.println("IPK   : " + current.data.ipk);
+
             current = current.next;
+        }
+    }
+
+    void printReverse() {
+        if (isEmpty()) {
+            System.out.println("Linked List masih kosong");
+            return;
+        }
+
+        Node01 current = tail;
+
+        while (current != null) {
+            System.out.println("NIM   : " + current.data.nim);
+            System.out.println("Nama  : " + current.data.nama);
+            System.out.println("Kelas : " + current.data.kelas);
+            System.out.println("IPK   : " + current.data.ipk);
+
+            current = current.prev;
         }
     }
 }

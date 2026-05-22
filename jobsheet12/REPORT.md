@@ -7,7 +7,22 @@
 
 # Labs #12 DOUBLE LINKED LIST
  
- ## Percobaan 1
+ ## 12.1 Percobaan 1
  ![Screenshot](img/p1A.png)
 
  ![Screenshot](img/p1B.png)
+
+  ### 12.1.1 Penjelasan Singkat
+  1. Buat node dengan data mahasiswa
+  2. Buat double linked list dengan berbagai methodnya
+  3. Jalankan di main
+
+  ### 12.1.2 Pertanyaan
+  
+  5. 
+  
+  ![Screenshot](img/p1pr5.png)
+
+  6. 
+
+  ![Screenshot](img/p1pr6.png)
