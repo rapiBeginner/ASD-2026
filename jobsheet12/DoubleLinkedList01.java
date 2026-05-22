@@ -105,24 +105,40 @@ public class DoubleLinkedList01 {
     }
 
     void removeFirst() {
+        Mahasiswa01 temp=null;
         if (isEmpty()) {
             System.out.println("Linked List kosong");
         } else if (head == tail) {
+            temp = head.data;
             head = tail = null;
         } else {
+            temp = head.data;
             head = head.next;
             head.prev = null;
+        }
+
+        if (temp!=null) {
+            System.out.println("Data yang dihapus");
+            temp.tampil();
         }
     }
 
     void removeLast() {
+        Mahasiswa01 temp=null;
         if (isEmpty()) {
             System.out.println("Linked List kosong");
         } else if (head == tail) {
+            temp=head.data;
             head = tail = null;
         } else {
+            temp = tail.data;
             tail = tail.prev;
             tail.next = null;
+        }
+
+        if (temp!=null) {
+            System.out.println("Data yang dihapus");
+            temp.tampil();
         }
     }
 }

@@ -15,6 +15,7 @@ public class DoubleLinkedListMain01 {
             System.out.println("4. Hapus data di awal");
             System.out.println("5. Hapus data di akhir");
             System.out.println("6. Tampilkan data");
+            System.out.println("7. tampilkan data dari belakang");
             System.out.println("0. Keluar");
             System.out.print("Pilih menu : ");
             pilih = raffi.nextInt();
@@ -98,11 +99,12 @@ public class DoubleLinkedListMain01 {
                 case 6:
                     dll.print();
                     break;
-
+                case 7:
+                    dll.printReverse();
+                    break;
                 case 0:
                     System.out.println("Program selesai");
                     break;
-
                 default:
                     System.out.println("Menu tidak tersedia");
             }

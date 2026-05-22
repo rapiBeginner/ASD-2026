@@ -27,6 +27,10 @@
 
   ![Screenshot](img/p1pr6.png)
 
+  ![Screenshot](img/p1pr6A.png)
+
+  ![Screenshot](img/p1pr6B.png)
+
  ## 12.2 Percobaan 2
 
  ![Screenshot](img/p2.png)
@@ -39,4 +43,8 @@
 
   2. 
 
-  
+  ![Screenshot](img/p2pr2A.png)
+
+  ![Screenshot](img/p2pr2B.png)
+
+  ![Screenshot](img/p2pr2C.png)
