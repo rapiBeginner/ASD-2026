@@ -88,11 +88,11 @@ public class DoubleLinkedListMain01 {
                     break;
 
                 case 4:
-                    // dll.removeFirst();
+                    dll.removeFirst();
                     break;
 
                 case 5:
-                    // dll.removeLast();
+                    dll.removeLast();
                     break;
 
                 case 6:

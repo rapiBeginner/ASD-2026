@@ -26,3 +26,17 @@
   6. 
 
   ![Screenshot](img/p1pr6.png)
+
+ ## 12.2 Percobaan 2
+
+ ![Screenshot](img/p2.png)
+
+  ### 12.2.1 Penjelasan singkat
+  1. Tambahkan method untuk menghapus data terakhir dan pertama
+  2. Panggil di main
+
+  ### 12.2.2 Pertanyaan
+
+  2. 
+
+  
