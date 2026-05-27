@@ -18,7 +18,10 @@
   3. Jalankan di main
 
   ### 12.1.2 Pertanyaan
-  
+  1. Single linked list hanya bisa melakukan traversal dari depan ke belakang, sementara double linked list mampu melkakukannya secara dua arah, baik maju ataupun mundur dikarenakan tambahan pointer prev yang merujuk ke node sebelumnya
+  2. pointer prev digunakan untuk merujuk ke node sebelumnya, bisa digunakan untuk traversal dari belakang ke depan, akan dihubungkan ke node baru yang ditambahkan didepan node tersebut. Sementara next digunakan untuk merujuk ke kode setelahnya, membantu traversal dari depan ke belakang, akan dihubungkan ke node baru yang ditambahkan dibelakang node tersebut
+  3. Konstruktor tersebut memastikan bahwa saat linked list pertama kali diinisialiasi, maka isinya masih kosong (head dan tail di isi null, menandakan tidak ada data didepan, dibelakang, ataupun diantaranya)
+  4. Karena ketika linked list masih kosong, data yang pertama masuk berperan sebagai yang pertama dan terakhir, sehingga ditandai sebagai head sekaligus tail.
   5. 
   
   ![Screenshot](img/p1pr5.png)
@@ -40,7 +43,7 @@
   2. Panggil di main
 
   ### 12.2.2 Pertanyaan
-
+  1. Potongan kode tersebut awalnya menggeser status head, dari head yang sekarang ke node setelahnya. Lalu, head yang baru ini diputus koneksinya dengan head yang lama sehingga head yang lama dianggap hilang / dihapus. Ini berlaku untuk deleteFirst (menghapus data paling depan).
   2. 
 
   ![Screenshot](img/p2pr2A.png)
