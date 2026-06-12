@@ -10,6 +10,7 @@ public class MainMenu {
         System.out.println("2. Cetak Antrian");
         System.out.println("3. Hapus Antrian dan Pesan");
         System.out.println("4. Laporan Pesanan");
+        System.out.println("5. Rekap Antrian per Jam");//Menu baru
         System.out.println("0. Keluar");
         System.out.print("Pilih menu : ");
     }
@@ -17,6 +18,7 @@ public class MainMenu {
     public static void main(String[] args) {
         QueueAntrian antrian = new QueueAntrian();
         QueuePesanan pesanan = new QueuePesanan();
+        LinkedListRekapAntrian rekap = new LinkedListRekapAntrian();
         Scanner sc = new Scanner(System.in);
         int pilihan;
         do {
@@ -29,7 +31,11 @@ public class MainMenu {
                     String nama = sc.nextLine();
                     System.out.print("No HP         : ");
                     String noHP = sc.nextLine();
+                    System.out.print("Jam Antri     : ");
+                    int jam = sc.nextInt();
+                    sc.nextLine();
                     antrian.add(new Pembeli(nama, noHP));
+                    rekap.add(new Rekap(jam));//saat antrian baru masuk, data baru dimasukkan ke rekap
                     break;
                 case 2:
                     antrian.printQueue();
@@ -51,6 +57,9 @@ public class MainMenu {
                     break;
                 case 4:
                     pesanan.reportOrder();
+                    break;
+                case 5:
+                    rekap.printRekap();
                     break;
                 case 0:
                     return;
