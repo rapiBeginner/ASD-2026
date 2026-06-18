@@ -42,22 +42,22 @@
 
    2. **Kegunaan `populateData()`**
 
-    * Untuk mengisi array data binary tree dan menentukan nilai `idxLast`.
+     * Untuk mengisi array data binary tree dan menentukan nilai `idxLast`.
 
-    3. **Kegunaan `traverseInOrder()`**
+   3. **Kegunaan `traverseInOrder()`**
 
      * Untuk menampilkan data tree dengan urutan kiri → root → kanan (InOrder).
 
-    4. **Jika node berada di indeks 2**
+   4. **Jika node berada di indeks 2**
 
      * Left child = `2 × 2 + 1 = 5`
      * Right child = `2 × 2 + 2 = 6`
 
-    5. **Kegunaan `int idxLast = 6`**
+   5. **Kegunaan `int idxLast = 6`**
 
      * Menunjukkan indeks terakhir yang berisi data pada array.
 
-    6. **Mengapa menggunakan `2*idxStart+1` dan `2*idxStart+2`?**
+   6. **Mengapa menggunakan `2*idxStart+1` dan `2*idxStart+2`?**
 
      * Karena pada binary tree berbasis array:
 
