@@ -61,3 +61,12 @@
 ![Screenshot](img/p3.png)
 
 ## 16.3.1 Pertanyaan
+
+1. Pada fungsi tambah() yang menggunakan unlimited argument itu menggunakan konsep apa? Dan kelebihannya apa?
+: Fungsi tersebut menggunakan konsep Varargs (Variable Arguments) yang ditandai dengan sintaks tiga titik (...) setelah tipe data parameter. Kelebihannya adalah memberikan fleksibilitas untuk melewatkan argumen objek dalam jumlah berapapun secara dinamis (bisa satu, beberapa objek sekaligus, atau bahkan dalam bentuk array) tanpa perlu membuat banyak method overloading atau membungkusnya secara manual ke dalam array terlebih dahulu.
+
+2. Pada fungsi linearSearch() di atas, silakan diganti dengan fungsi binarySearch() dari collection!
+: Implementasi pengubahan ke binarySearch() telah ditambahkan di dalam class ListMahasiswa01 di atas dengan nama method binarySearch(String nim). Syarat utama pencarian biner adalah data list harus diurutkan terlebih dahulu menggunakan Comparator, kemudian barulah Collections.binarySearch() dipanggil menggunakan parameter Comparator yang sama agar posisi indeks data yang dicari bisa ditemukan secara akurat.
+
+3. Tambahkan fungsi sorting baik secara ascending ataupun descending pada class tersebut!
+: Fungsi pengurutan telah ditambahkan di dalam class ListMahasiswa01 di atas dengan nama method sortAscending() (mengurutkan NIM dari terkecil ke terbesar) dan sortDescending() (mengurutkan NIM dari terbesar ke terkecil) menggunakan lambda expression untuk mendefinisikan kriteria perbandingan objek Mahasiswa01.
