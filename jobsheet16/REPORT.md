@@ -55,3 +55,9 @@
 ![Screenshot](img/p2pr6.png)
 
 ![Screenshot](img/p2pr6.png)
+
+# 16.3 Percobaan 3
+
+![Screenshot](img/p3.png)
+
+## 16.3.1 Pertanyaan
